@@ -21,12 +21,12 @@ The following skills are evaluated in the AI-102 exam. For detailed breakdown, s
 
 | Skill Area | Weight | Description |
 |------------|--------|-------------|
-| 🏗️ **Plan and manage an Azure AI solution** | 15-20% | Architecture, deployment, and management |
-| ✨ **Implement generative AI solutions** | 30-35% | Large language models and content generation |
-| 🤖 **Implement an agentic solution** | 15-20% | AI agents and workflow automation |
-| 👁️ **Implement computer vision solutions** | 15-20% | Image processing and analysis |
-| 💬 **Implement natural language processing** | 15-20% | Text analysis and language understanding |
-| 📊 **Knowledge mining & information extraction** | 10-15% | Document intelligence and search solutions |
+| 🏗️ **[Plan and manage an Azure AI solution](01_Plan_Manage_Azure_AI_Solution/README.md)** | 20-25% | Architecture, deployment, and management |
+| ✨ **[Implement generative AI solutions](02_Implement_Generative_AI_Solutions/README.md)** | 15-20% | Large language models and content generation |
+| 🤖 **[Implement an agentic solution](03_Implement_Agentic_Solution/README.md)** | 5-10% | AI agents and workflow automation |
+| 👁️ **[Implement computer vision solutions](04_Implement_Computer_Vision_Solutions/README.md)** | 15-20% | Image processing and analysis |
+| 💬 **[Implement natural language processing](05_Implement_Natural_Language_Processing_Solutions/README.md)** | 15-20% | Text analysis and language understanding |
+| 📊 **[Knowledge mining & information extraction](06_Implement_Knowledge_Mining_Information_Extraction_Solutions/README.md)** | 15-20% | Document intelligence and search solutions |
 
 ## 📚 Official Learning Paths
 
