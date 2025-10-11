@@ -4,19 +4,27 @@
 
 This section covers Natural Language Processing (NLP) capabilities available in Azure AI Services, aligned with the **AI-102 exam objectives (15–25% of exam content)**. Learn to implement text analysis, language understanding, translation, and speech processing solutions.
 
-## 🎯 Azure NLP Capabilities
+## 🧠 Azure AI Language Capabilities
 
-| # | 🔧 Capability | 📝 Description | 🏷️ Azure Service | 🌐 Example Endpoint | 📖 Implementation Guide |
-|---|---|---|---|---|---|
-| **1** | **Analyze Text with Azure AI Language** | Performs sentiment analysis, key phrase extraction, named entity recognition, and language detection | Azure AI Language | `https://<your-resource>.cognitiveservices.azure.com/language/:analyze-text?api-version=2023-04-15` | [📄 Text Analysis Guide](./Analyze_Text_with_Azure_AI_Language.md) |
-| **2** | **Create Question Answering Solutions** | Build knowledge bases that answer user questions from documents or websites | Azure AI Language – Question Answering | `https://<your-resource>.cognitiveservices.azure.com/language/:query-knowledgebases?projectName=<project-name>&api-version=2023-04-15` | [📄 Q&A Solutions Guide](./Create_Question_Answering_Solutions.md) |
-| **3** | **Build Conversational Language Understanding (CLU)** | Detects intents and entities in user input for chatbots and conversational AI | Azure AI Language – CLU | `https://<your-resource>.cognitiveservices.azure.com/language/:analyze-conversations?projectName=<project-name>&deploymentName=production&api-version=2023-04-15` | [📄 CLU Model Guide](./Build_Conversational_Language_Understanding_Model.md) |
-| **4** | **Create Custom Text Classification** | Custom model for text classification trained in Azure AI Studio | Azure AI Language – Custom Text Classification | `https://<your-resource>.cognitiveservices.azure.com/language/:analyze-text/projects/<project-name>/deployments/<deployment-name>?api-version=2023-04-15` | [📄 Text Classification Guide](./Create_Custom_Text_Classification.md) |
-| **5** | **Custom Named Entity Recognition** | Custom model to extract entities (e.g., invoice numbers, patient IDs) | Azure AI Language – Custom NER | `https://<your-resource>.cognitiveservices.azure.com/language/:analyze-text/projects/<project-name>/deployments/<deployment-name>?api-version=2023-04-15` | [📄 Custom NER Guide](./Custom_Named_Entity_Recognition.md) |
-| **6** | **Translate Text with Azure AI Translator** | Detect and translate text across 100+ languages with high accuracy | Azure AI Translator | `https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to=es` | [📄 Text Translation Guide](./Translate_Text_with_Azure_AI_Translator.md) |
-| **7** | **Create Speech-Enabled Apps** | Integrate voice capabilities into applications with speech-to-text and text-to-speech | Azure AI Speech | `wss://<region>.stt.speech.microsoft.com/speech/recognition/conversation/cognitiveservices/v1` | [📄 Speech Apps Guide](./Create_Speech_Enabled_Apps.md) |
-| **8** | **Translate Speech** | Converts spoken input into translated text and audio in real-time | Azure AI Speech Translation | `wss://<region>.stt.speech.microsoft.com/speech/translation/cognitiveservices/v1` | [📄 Speech Translation Guide](./Translate_Speech.md) |
-| **9** | **Audio-Enabled Generative AI Applications** | Create applications where users can talk with an LLM using voice input/output | Azure OpenAI + Azure Speech | `https://<your-azure-openai-resource>.openai.azure.com/openai/deployments/<model>/chat/completions?api-version=2024-02-15-preview` | [📄 Audio AI Guide](./Develop_Audio_Enabled_Generative_AI_Application.md) |
+| **Capability** | **Description** | **Service Used** | **REST Endpoint** | **Code Examples** |
+|---|---|---|---|---|
+| **Sentiment Analysis** 😊 | Analyze text sentiment with confidence scores and opinion mining | Azure AI Language | `/text/analytics/v3.1/sentiment` | [📄 View Examples](./Sentiment_Analysis.md) |
+| **Named Entity Recognition** 🏷️ | Extract and classify entities (people, places, organizations) | Azure AI Language | `/text/analytics/v3.1/entities/recognition/general` | [📄 View Examples](./Named_Entity_Recognition.md) |
+| **Key Phrase Extraction** 🔑 | Identify main concepts and important phrases in text | Azure AI Language | `/text/analytics/v3.1/keyPhrases` | [📄 View Examples](./Key_Phrase_Extraction.md) |
+| **Language Detection** 🌐 | Detect the language of input text with confidence scores | Azure AI Language | `/text/analytics/v3.1/languages` | [📄 View Examples](./Language_Detection.md) |
+| **Text Summarization** 📝 | Generate extractive and abstractive summaries of documents | Azure AI Language | `/text/analytics/v3.1/analyze` | [📄 View Examples](./Text_Summarization.md) |
+| **Question Answering** ❓ | Build conversational AI with custom or prebuilt knowledge bases | Azure AI Language | `/language/:query-knowledgebases` | [📄 View Examples](./Question_Answering.md) |
+| **PII Detection & Redaction** 🔒 | Identify and redact personally identifiable information | Azure AI Language | `/text/analytics/v3.1/entities/recognition/pii` | [📄 View Examples](./PII_Detection.md) |
+| **Healthcare Text Analytics** 🏥 | Extract medical entities, relations, and assertions | Azure AI Language | `/text/analytics/v3.1/entities/health` | [📄 View Examples](./Healthcare_Analytics.md) |
+| **Content Safety** 🛡️ | Detect harmful content categories with severity levels | Azure AI Content Safety | `/contentsafety/text:analyze` | [📄 View Examples](./Content_Safety.md) |
+
+### 🔗 Quick Links
+- **📋 [Azure AI Language Overview](https://docs.microsoft.com/azure/cognitive-services/language-service/)**
+- **🚀 [Python SDK Documentation](https://docs.microsoft.com/python/api/azure-ai-textanalytics/)**
+- **⚙️ [.NET SDK Documentation](https://docs.microsoft.com/dotnet/api/azure.ai.textanalytics/)**
+- **🌐 [REST API Reference](https://docs.microsoft.com/rest/api/language/)**
+
+## 🎯 AI-102 Exam Coverage
 
 ## 🗺️ Learning Path
 
