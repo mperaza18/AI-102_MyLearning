@@ -120,9 +120,23 @@ This repository is organized by exam skill areas for focused study:
 - 💡 [Azure AI Blog](https://azure.microsoft.com/en-us/blog/topics/artificial-intelligence/)
 - 🗨️ [Microsoft Tech Community - AI](https://techcommunity.microsoft.com/t5/artificial-intelligence-and/ct-p/AI)
 
+## 🔗 Extended Learning Resources
+
+Beyond the core certification materials, explore additional tools, tutorials, and real-world implementations:
+
+📄 **[View Extended Resources →](./OTHERS.md)**
+
+### What You'll Find:
+- 🛠️ **Development Tools:** Semantic Kernel and other AI frameworks
+- 🎯 **Specialized Tutorials:** Speech-to-text, accessibility tools, and custom skills
+- 📖 **Advanced Topics:** Lucene queries, knowledge stores, and enrichment pipelines
+- 💻 **Sample Projects:** Real-world .NET applications with AI features
+- 🚀 **Hands-on Examples:** eShopLite and Generative AI implementations
+
+> 💡 These supplementary resources provide practical context and advanced implementation examples to complement your certification studies.
+
 ---
 
 **🎯 Good luck with your AI-102 certification journey!** 
 
 > 💡 **Tip:** Consistent practice and hands-on experience with Azure AI services are key to success.
-
