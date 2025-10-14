@@ -70,7 +70,8 @@ Access official Microsoft Learning repositories for practical exercises:
 | [mslearn-ai-language](https://github.com/MicrosoftLearning/mslearn-ai-language) | 💬 Natural Language Processing | [Practice Labs](https://microsoftlearning.github.io/mslearn-ai-language/) |
 | [mslearn-knowledge-mining](https://github.com/MicrosoftLearning/mslearn-knowledge-mining) | 📊 Knowledge Mining | Practice Labs |
 | [mslearn-ai-studio](https://github.com/MicrosoftLearning/mslearn-ai-studio) | 🤖 AI Studio & OpenAI | [Practice Labs](https://microsoftlearning.github.io/mslearn-ai-studio/) |
-| [mslearn-ai-information-extraction](https://github.com/MicrosoftLearning/mslearn-ai-information-extraction) | 📄 Document Intelligence | [Training Path](https://learn.microsoft.com/en-us/training/paths/ai-extract-information/) |
+| [mslearn-ai-information-extraction](https://github.com/MicrosoftLearning/mslearn-ai-information-extraction) | 📄 Document Intelligence | [Practice Labs](https://github.com/microsoftlearning/mslearn-ai-information-extraction/) |
+| [mslearn-ai-agents](https://github.com/MicrosoftLearning/mslearn-ai-agents) | 📄 AI Agents | [Practice Labs](https://microsoftlearning.github.io/mslearn-ai-agents/) |
 
 ### Archived Repositories ⚠️
 > These repositories are no longer actively maintained but may contain useful reference material:
@@ -95,23 +96,23 @@ This repository is organized by exam skill areas for focused study:
 ```
 📁 AI-102_MyLearning/
 ├── 📄 README.md                                    # This guide
-├── 📁 01_Plan_Manage_Azure_AI_Solution/            # 15-20% of exam
-├── 📁 02_Implement_Generative_AI_Solutions/        # 30-35% of exam  
-├── 📁 03_Implement_Agentic_Solution/               # 15-20% of exam
+├── 📁 01_Plan_Manage_Azure_AI_Solution/            # 20-25% of exam
+├── 📁 02_Implement_Generative_AI_Solutions/        # 15-20% of exam  
+├── 📁 03_Implement_Agentic_Solution/               # 5-10% of exam
 ├── 📁 04_Implement_Computer_Vision_Solutions/      # 15-20% of exam
 ├── 📁 05_Implement_Natural_Language_Processing_Solutions/ # 15-20% of exam
-├── 📁 06_Implement_Knowledge_Mining_Information_Extraction_Solutions/ # 10-15% of exam
+├── 📁 06_Implement_Knowledge_Mining_Information_Extraction_Solutions/ # 15-20% of exam
 └── 📁 07_Practice_Assessments/                     # Mock exams & practice tests
 ```
 
 ## 🚀 Getting Started
 
 1. **📖 Review the [official study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-102)**
-2. **🎯 Take the practice assessment to identify knowledge gaps**
-3. **📚 Follow the learning paths in sequence**
-4. **🛠️ Complete hands-on labs from the practice repositories**
-5. **📝 Use this repository's organized content for focused study**
-6. **🔄 Review and practice regularly**
+2. **📚 Follow the learning paths in sequence**
+3. **🛠️ Complete hands-on labs from the practice repositories**
+4. **📝 Use this repository's organized content for focused study**
+5. **🔄 Review and practice regularly**
+6. **🎯 Take the practice assessment to identify knowledge gaps**
 
 ## 📚 Additional Resources
 
