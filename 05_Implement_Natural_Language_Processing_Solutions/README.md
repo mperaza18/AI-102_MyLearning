@@ -17,6 +17,7 @@ This section covers Natural Language Processing (NLP) capabilities available in 
 | **PII Detection & Redaction** 🔒 | Identify and redact personally identifiable information | Azure AI Language | `/text/analytics/v3.1/entities/recognition/pii` | [📄 View Examples](./PII_Detection.md) |
 | **Healthcare Text Analytics** 🏥 | Extract medical entities, relations, and assertions | Azure AI Language | `/text/analytics/v3.1/entities/health` | [📄 View Examples](./Healthcare_Analytics.md) |
 | **Content Safety** 🛡️ | Detect harmful content categories with severity levels | Azure AI Content Safety | `/contentsafety/text:analyze` | [📄 View Examples](./Content_Safety.md) |
+| **Build a Conversational Language Understanding (CLU) Model** 🤖 | Detects intents and entities in user input for chatbots | Azure AI Language – CLU | `/language/:analyze-conversations?api-version=2023-04-01` | [📄 View Examples](./Conversational_Language_Understanding.md) |
 
 ### 🔗 Quick Links
 - **📋 [Azure AI Language Overview](https://docs.microsoft.com/azure/cognitive-services/language-service/)**
