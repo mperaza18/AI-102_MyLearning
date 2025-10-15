@@ -724,7 +724,7 @@ deduplicate_entities(duplicate_docs)
 - **[What is Named Entity Recognition (NER) in Azure AI Language?](https://learn.microsoft.com/en-us/azure/ai-services/language-service/named-entity-recognition/overview)**
 - **[Healthcare NER Documentation](https://docs.microsoft.com/azure/cognitive-services/language-service/text-analytics-for-health/)**
 - **[Entity Categories Reference](https://docs.microsoft.com/azure/cognitive-services/language-service/named-entity-recognition/concepts/named-entity-categories)**
-- **[REST API Reference](https://docs.microsoft.com/rest/api/language/text-analytics/named-entity-recognition)**
+- **[REST API Reference](https://learn.microsoft.com/rest/api/language/text-analysis-runtime/)**
 - **[Python SDK Documentation](https://docs.microsoft.com/python/api/azure-ai-textanalytics/)**
 
 ## 🎯 AI-102 Exam Tips

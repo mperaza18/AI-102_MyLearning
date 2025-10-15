@@ -531,7 +531,7 @@ optimized_sentiment_analysis()
 ## 📚 Additional Resources
 
 - **[Azure AI Language Documentation](https://docs.microsoft.com/azure/cognitive-services/language-service/sentiment-opinion-mining/)**
-- **[REST API Reference](https://docs.microsoft.com/rest/api/language/text-analytics/sentiment)**
+- **[REST API Reference](https://learn.microsoft.com/rest/api/language/text-analysis-runtime/)**
 - **[Python SDK Documentation](https://docs.microsoft.com/python/api/azure-ai-textanalytics/)**
 - **[.NET SDK Documentation](https://docs.microsoft.com/dotnet/api/azure.ai.textanalytics/)**
 - **[Pricing Information](https://azure.microsoft.com/pricing/details/cognitive-services/language-service/)**

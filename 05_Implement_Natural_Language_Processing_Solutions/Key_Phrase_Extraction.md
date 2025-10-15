@@ -849,7 +849,7 @@ optimized_phrase_extraction()
 
 - **[Azure AI Language Key Phrases Documentation](https://docs.microsoft.com/azure/cognitive-services/language-service/key-phrase-extraction/)**
 - **[Supported Languages](https://docs.microsoft.com/azure/cognitive-services/language-service/key-phrase-extraction/language-support)**
-- **[REST API Reference](https://docs.microsoft.com/rest/api/language/text-analytics/key-phrases)**
+- **[REST API Reference](https://learn.microsoft.com/rest/api/language/text-analysis-runtime/)**
 - **[Python SDK Documentation](https://docs.microsoft.com/python/api/azure-ai-textanalytics/)**
 - **[Pricing Information](https://azure.microsoft.com/pricing/details/cognitive-services/language-service/)**
 

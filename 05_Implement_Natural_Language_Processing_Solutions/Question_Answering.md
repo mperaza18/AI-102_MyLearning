@@ -514,7 +514,7 @@ def question_answering_rest():
     deployment_name = "production"
     
     # Knowledge base query
-    kb_url = f"{endpoint}/language/:query-knowledgebases"
+    kb_url = f"{endpoint}/language/:query-knowledgebases?api-version=2021-10-01"
     
     headers = {
         "Ocp-Apim-Subscription-Key": key,
@@ -523,7 +523,6 @@ def question_answering_rest():
     
     params = {
         "projectName": project_name,
-        "api-version": "2021-10-01",
         "deploymentName": deployment_name
     }
     

@@ -797,7 +797,7 @@ class TextSummarizationREST:
                 }
             }
         
-        url = f"{self.endpoint}/language/analyze-text/jobs"
+    url = f"{self.endpoint}/language/analyze-text/jobs?api-version={self.api_version}"
         headers = {
             "Ocp-Apim-Subscription-Key": self.key,
             "Content-Type": "application/json"
@@ -835,10 +835,8 @@ class TextSummarizationREST:
             "tasks": tasks
         }
         
-        params = {"api-version": self.api_version}
-        
         try:
-            response = requests.post(url, headers=headers, params=params, json=payload)
+            response = requests.post(url, headers=headers, json=payload)
             response.raise_for_status()
             
             # Extract job ID from response headers
@@ -855,14 +853,12 @@ class TextSummarizationREST:
     def get_job_status(self, job_id):
         """Get the status of a summarization job"""
         
-        url = f"{self.endpoint}/language/analyze-text/jobs/{job_id}"
+    url = f"{self.endpoint}/language/analyze-text/jobs/{job_id}?api-version={self.api_version}"
         headers = {
             "Ocp-Apim-Subscription-Key": self.key
         }
-        params = {"api-version": self.api_version}
-        
         try:
-            response = requests.get(url, headers=headers, params=params)
+            response = requests.get(url, headers=headers)
             response.raise_for_status()
             return response.json()
             

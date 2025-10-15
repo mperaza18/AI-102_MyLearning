@@ -517,7 +517,7 @@ class LanguageDetectionREST:
     def detect_language(self, documents):
         """Detect language using REST API"""
         
-        url = f"{self.endpoint}/language/:analyze-text"
+    url = f"{self.endpoint}/language/:analyze-text?api-version={self.api_version}"
         headers = {
             "Ocp-Apim-Subscription-Key": self.key,
             "Content-Type": "application/json"
@@ -543,10 +543,8 @@ class LanguageDetectionREST:
             }
         }
         
-        params = {"api-version": self.api_version}
-        
         try:
-            response = requests.post(url, headers=headers, params=params, json=payload)
+            response = requests.post(url, headers=headers, json=payload)
             response.raise_for_status()
             return response.json()
             

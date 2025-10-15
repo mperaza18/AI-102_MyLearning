@@ -8,15 +8,15 @@ This section covers Natural Language Processing (NLP) capabilities available in 
 
 | **Capability** | **Description** | **Service Used** | **REST Endpoint** | **Code Examples** |
 |---|---|---|---|---|
-| **Sentiment Analysis** 😊 | Analyze text sentiment with confidence scores and opinion mining | Azure AI Language | `/text/analytics/v3.1/sentiment` | [📄 View Examples](./Sentiment_Analysis.md) |
-| **Named Entity Recognition** 🏷️ | Extract and classify entities (people, places, organizations) | Azure AI Language | `/text/analytics/v3.1/entities/recognition/general` | [📄 View Examples](./Named_Entity_Recognition.md) |
-| **Key Phrase Extraction** 🔑 | Identify main concepts and important phrases in text | Azure AI Language | `/text/analytics/v3.1/keyPhrases` | [📄 View Examples](./Key_Phrase_Extraction.md) |
-| **Language Detection** 🌐 | Detect the language of input text with confidence scores | Azure AI Language | `/text/analytics/v3.1/languages` | [📄 View Examples](./Language_Detection.md) |
-| **Text Summarization** 📝 | Generate extractive and abstractive summaries of documents | Azure AI Language | `/text/analytics/v3.1/analyze` | [📄 View Examples](./Text_Summarization.md) |
-| **Question Answering** ❓ | Build conversational AI with custom or prebuilt knowledge bases | Azure AI Language | `/language/:query-knowledgebases` | [📄 View Examples](./Question_Answering.md) |
-| **PII Detection & Redaction** 🔒 | Identify and redact personally identifiable information | Azure AI Language | `/text/analytics/v3.1/entities/recognition/pii` | [📄 View Examples](./PII_Detection.md) |
-| **Healthcare Text Analytics** 🏥 | Extract medical entities, relations, and assertions | Azure AI Language | `/text/analytics/v3.1/entities/health` | [📄 View Examples](./Healthcare_Analytics.md) |
-| **Content Safety** 🛡️ | Detect harmful content categories with severity levels | Azure AI Content Safety | `/contentsafety/text:analyze` | [📄 View Examples](./Content_Safety.md) |
+| **Sentiment Analysis** 😊 | Analyze text sentiment with confidence scores and opinion mining | Azure AI Language | `/language/:analyze-text?api-version=2022-05-01` | [📄 View Examples](./Sentiment_Analysis.md) |
+| **Named Entity Recognition** 🏷️ | Extract and classify entities (people, places, organizations) | Azure AI Language | `/language/:analyze-text?api-version=2022-05-01` | [📄 View Examples](./Named_Entity_Recognition.md) |
+| **Key Phrase Extraction** 🔑 | Identify main concepts and important phrases in text | Azure AI Language | `/language/:analyze-text?api-version=2022-05-01` | [📄 View Examples](./Key_Phrase_Extraction.md) |
+| **Language Detection** 🌐 | Detect the language of input text with confidence scores | Azure AI Language | `/language/:analyze-text?api-version=2022-05-01` | [📄 View Examples](./Language_Detection.md) |
+| **Text Summarization** 📝 | Generate extractive and abstractive summaries of documents | Azure AI Language | `/language/analyze-text/jobs?api-version=2022-05-01` | [📄 View Examples](./Text_Summarization.md) |
+| **Question Answering** ❓ | Build conversational AI with custom or prebuilt knowledge bases | Azure AI Language | `/language/:query-knowledgebases?api-version=2021-10-01` | [📄 View Examples](./Question_Answering.md) |
+| **PII Detection & Redaction** 🔒 | Identify and redact personally identifiable information | Azure AI Language | `/language/:analyze-text?api-version=2022-05-01` | [📄 View Examples](./PII_Detection.md) |
+| **Healthcare Text Analytics** 🏥 | Extract medical entities, relations, and assertions | Azure AI Language | `/language/analyze-text/jobs?api-version=2022-05-01` | [📄 View Examples](./Healthcare_Analytics.md) |
+| **Content Safety** 🛡️ | Detect harmful content categories with severity levels | Azure AI Content Safety | `/contentsafety/text:analyze?api-version=2024-09-01` | [📄 View Examples](./Content_Safety.md) |
 | **Build a Conversational Language Understanding (CLU) Model** 🤖 | Detects intents and entities in user input for chatbots | Azure AI Language – CLU | `/language/:analyze-conversations?api-version=2023-04-01` | [📄 View Examples](./Conversational_Language_Understanding.md) |
 
 ### 🔗 Quick Links
@@ -24,6 +24,13 @@ This section covers Natural Language Processing (NLP) capabilities available in 
 - **🚀 [Python SDK Documentation](https://docs.microsoft.com/python/api/azure-ai-textanalytics/)**
 - **⚙️ [.NET SDK Documentation](https://docs.microsoft.com/dotnet/api/azure.ai.textanalytics/)**
 - **🌐 [REST API Reference](https://docs.microsoft.com/rest/api/language/)**
+
+> Note
+> - Prebuilt text analysis features (Sentiment, NER, Key Phrases, Language Detection, PII) use the unified endpoint: `https://<endpoint>/language/:analyze-text?api-version=2022-05-01`.
+> - Long-running operations like Document Summarization and Text Analytics for Health use the jobs endpoint: `https://<endpoint>/language/analyze-text/jobs?api-version=2022-05-01`.
+> - Custom Question Answering runtime uses: `https://<endpoint>/language/:query-knowledgebases?api-version=2021-10-01`.
+> - Azure AI Content Safety is a separate service and uses: `https://<endpoint>/contentsafety/text:analyze?api-version=2024-09-01`.
+> - For the latest GA API versions, see the Azure AI Language REST reference. Some quickstarts may show newer preview versions.
 
 ## 🎯 AI-102 Exam Coverage
 
